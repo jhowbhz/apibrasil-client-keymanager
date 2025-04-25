@@ -1,6 +1,6 @@
 {
     "name": "apibrasil-manager",
-    "version": "0.0.18",
+    "version": "0.0.20",
     "description": "Manager tools from apibrasil for clients WhatsApp API White Label",
     "main": "./build/manager.js",
     "type": "module",
