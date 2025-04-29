@@ -7,7 +7,7 @@ Client Free Open Source APIBrasil Key Manager
 ```js
 const Manager = require('apibrasil-manager');
 
-Manager.valid('you_url_key_manger_server', {
+Manager.valid('you_url_key_manager_server', {
     apitoken: process.env.TOKEN,
     host_ssl: process.env.HOST_SSL,
     port: process.env.PORT,

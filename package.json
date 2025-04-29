@@ -1,27 +1,40 @@
 {
     "name": "apibrasil-manager",
-    "version": "0.0.21",
-    "description": "Manager tools from apibrasil for clients WhatsApp API White Label",
+    "version": "0.0.28",
+    "description": "Open-source key manager client for APIBrasil",
+    "keywords": [
+        "manager",
+        "apibrasil",
+        "key-manager",
+        "api-client"
+    ],
+    "author": "apibrasil",
+    "license": "MIT",
     "main": "./build/manager.js",
-    "type": "module",
-    "dependencies": {
-        "axios": "^1.7.2",
-        "moment": "^2.24.0"
-    },
     "scripts": {
-        "build": "uglifyjs --compress --mangle --output ./build/manager.js -- ./src/manager.js",
+        "build": "node ./uglify.js",
         "test": "node ./src/test.js",
         "start": "node ./build/manager.js",
         "release": "npm run build && release-it"
     },
-    "keywords": [
-        "manager",
-        "apibrasil"
-    ],
-    "author": "apibrasil",
-    "license": "MIT",
+    "release-it": {
+        "npm": {
+            "publish": false
+        }
+    },
+    "dependencies": {
+        "axios": "^1.7.2",
+        "moment": "^2.29.4"
+    },
     "devDependencies": {
         "uglify-js": "^3.18.0",
         "release-it": "^16.1.0"
+    },
+    "engines": {
+        "node": ">=18.0.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/apibrasil/apibrasil-keymanager.git"
     }
 }
