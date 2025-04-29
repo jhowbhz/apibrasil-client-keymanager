@@ -1,5 +1,5 @@
 {
-    "name": "apibrasil-manager",
+    "name": "@apibrasil/client-keymanager",
     "version": "0.0.29",
     "description": "Open-source key manager client for APIBrasil",
     "keywords": [
@@ -30,6 +30,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/apibrasil/apibrasil-keymanager.git"
+        "url": "git+https://github.com/jhowbhz/apibrasil-client-keymanager.git"
     }
 }
