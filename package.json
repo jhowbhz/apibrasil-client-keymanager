@@ -1,6 +1,6 @@
 {
     "name": "@apibrasil/client-keymanager",
-    "version": "0.0.29",
+    "version": "0.0.30",
     "description": "Open-source key manager client for APIBrasil",
     "keywords": [
         "manager",
