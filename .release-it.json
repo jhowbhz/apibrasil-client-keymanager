@@ -1,0 +1,23 @@
+{
+  "github": {
+    "release": true,
+    "releaseName": "Release ${version}",
+    "draft": false,
+    "prerelease": false,
+    "publish": true
+  },
+  "npm": {
+    "publish": false,
+    "private": true
+  },
+  "git": {
+    "tagName": "${version}",
+    "tag": true,
+    "commit": true,
+    "commitMessage": "chore(release): v${version}",
+    "requireCleanWorkingDir": false
+  },
+  "requireChangelog": false,
+  "dryRun": false,
+  "interactive": true
+}
